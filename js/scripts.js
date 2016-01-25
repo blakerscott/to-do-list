@@ -19,5 +19,9 @@ $(document).ready(function() {
       $(this).parents("li").css("text-decoration", "line-through");
     });
 
+    $(".task").dblclick(function() {
+      $(this).parents("li").css("display", "none");
+    });
+
   });
 });
