@@ -5,6 +5,7 @@
 .task {
   cursor: pointer;
   color: #0088cc;
+  font-size: 20px;
 }
 
 .task:hover {
